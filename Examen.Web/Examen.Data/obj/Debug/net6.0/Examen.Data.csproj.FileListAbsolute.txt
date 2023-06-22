@@ -1,0 +1,14 @@
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\bin\Debug\net6.0\Examen.Data.deps.json
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\bin\Debug\net6.0\Examen.Data.runtimeconfig.json
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\bin\Debug\net6.0\Examen.Data.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\bin\Debug\net6.0\Examen.Data.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.csproj.AssemblyReference.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.AssemblyInfoInputs.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.AssemblyInfo.cs
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.csproj.CoreCompileInputs.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\refint\Examen.Data.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\Examen.Data.genruntimeconfig.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Data\obj\Debug\net6.0\ref\Examen.Data.dll

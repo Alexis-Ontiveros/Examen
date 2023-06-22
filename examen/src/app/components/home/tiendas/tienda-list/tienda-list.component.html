@@ -1,0 +1,52 @@
+<div class="card">
+  <p-table [value]="tiendas" [tableStyle]="{ 'min-width': '50rem' }" [styleClass]="'p-datatable-sm'">
+      <ng-template pTemplate="caption">
+          <div class="flex align-items-center justify-content-between">
+              Tiendas
+          </div>
+      </ng-template>
+      <ng-template pTemplate="header">
+          <tr>
+              <th>Id</th>
+              <th>Sucursal</th>
+              <th>Direccion</th>
+              <th></th>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-tienda>
+          <tr>
+              <td>{{tienda.id}}</td>
+              <td>{{tienda.sucursal}}</td>
+              <td>{{tienda.direccion}}</td>
+              <td>
+                <p-button [routerLink]="['/home/tiendas/form', tienda.id]" icon="pi pi-file-edit" styleClass="p-button-rounded p-button-help p-button-text"></p-button>
+                <p-button [routerLink]="['/home/tiendas/articulos', tienda.id]" icon="pi pi-file-import" styleClass="p-button-rounded p-button-help p-button-text"></p-button>
+                <p-button icon="pi pi-trash" styleClass="p-button-rounded p-button-help p-button-text" (onClick)="confirmDelete(tienda.id)"></p-button>
+              </td>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="summary">
+          <div class="flex align-items-center justify-content-between">
+              {{tiendas ? tiendas.length : 0 }} tiendas.
+          </div>
+      </ng-template>
+  </p-table>
+</div>
+
+<p-confirmDialog #cd [style]="{width: '25vw'}"> 
+    <ng-template pTemplate="footer">
+        <button type="button" pButton
+            icon="pi pi-times" label="Cancelar"
+            class="p-button-rounded"
+            (click)="cd.reject()">
+        </button>
+       
+        <button type="button" pButton
+            icon="pi pi-trash" label="Eliminar"
+            class="p-button-rounded p-button-danger"
+            (click)="cd.accept()">
+        </button>
+    </ng-template>
+</p-confirmDialog>
+
+<p-toast></p-toast>

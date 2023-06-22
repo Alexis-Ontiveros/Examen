@@ -1,0 +1,17 @@
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Service.deps.json
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Service.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Service.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Dto.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Interface.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Interface.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\bin\Debug\net6.0\Examen.Dto.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.csproj.AssemblyReference.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.AssemblyInfoInputs.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.AssemblyInfo.cs
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.csproj.CoreCompileInputs.cache
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.csproj.CopyComplete
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\refint\Examen.Service.dll
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\Examen.Service.pdb
+C:\Users\alexi\Documents\Examen\Examen.Web\Examen.Service\obj\Debug\net6.0\ref\Examen.Service.dll

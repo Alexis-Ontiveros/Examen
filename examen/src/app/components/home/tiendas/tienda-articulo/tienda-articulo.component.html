@@ -1,0 +1,36 @@
+<p-fieldset legend="Tienda: {{tiendaInfo}}">
+    <p class="m-0">
+        <p-pickList 
+            [source]="articulosSource" 
+            [target]="articulosTarget" 
+            sourceHeader="Articulos disponibles" 
+            targetHeader="Articulos asignados" 
+            [dragdrop]="true" 
+            [responsive]="true"
+            [sourceStyle]="{ height: '30rem' }" 
+            [targetStyle]="{ height: '30rem' }"
+
+            [showSourceControls]="false"
+            [showTargetControls]="false"        
+
+            (onMoveToSource)="quitarArticulo($event)"
+            (onMoveToTarget)="agregarArticulo($event)"
+
+            breakpoint="1400px">
+            <ng-template let-articulo pTemplate="item">
+                <div class="flex flex-wrap p-2 align-items-center gap-3">
+                    <img class="w-4rem shadow-2 flex-shrink-0 border-round" src="data:image/jpg;base64,{{articulo.imagen}}" alt="{item.name}" />
+                    <div class="flex-1 flex flex-column gap-2">
+                        <span class="font-bold">{{ articulo.descripcion }}</span>
+                        <div class="flex align-items-center gap-2">
+                            <i class="pi pi-tag text-sm"></i>
+                            <span>{{ articulo.codigo }}</span>
+                        </div>
+                    </div>
+                    <span class="font-bold text-900">{{ '$' + articulo.precio }}</span>
+                </div>
+            </ng-template>
+        </p-pickList>
+    </p>
+</p-fieldset>
+<p-toast></p-toast>

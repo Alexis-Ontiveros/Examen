@@ -1,0 +1,21 @@
+<p-menubar [model]="items" [autoDisplay]="true">
+  <ng-template pTemplate="start">
+      <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2">
+  </ng-template>
+  <ng-template pTemplate="end">
+    <p-button 
+      icon="pi pi-fw pi-power-off" 
+      styleClass="p-button-rounded p-button-secondary p-button-text" 
+      label="Cerrar Sesion" 
+      (onClick)="cerrarSesion()"
+    ></p-button>
+</ng-template>
+</p-menubar>
+<br>
+<div class="grid">
+  <div class="col-1"></div>
+  <div class="col-10">
+      <router-outlet></router-outlet>
+  </div>
+  <div class="col-1"></div>
+</div>

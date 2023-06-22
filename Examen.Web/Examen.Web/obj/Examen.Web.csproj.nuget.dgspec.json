@@ -1,0 +1,410 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Web\\Examen.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj",
+        "projectName": "Examen.Data",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\Examen.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\Examen.Dto.csproj",
+        "projectName": "Examen.Dto",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\Examen.Dto.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj",
+        "projectName": "Examen.Interface",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\Examen.Dto.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Dto\\Examen.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\Examen.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\Examen.Repository.csproj",
+        "projectName": "Examen.Repository",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\Examen.Repository.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj"
+              },
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\Examen.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\Examen.Service.csproj",
+        "projectName": "Examen.Service",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\Examen.Service.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Web\\Examen.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Web\\Examen.Web.csproj",
+        "projectName": "Examen.Web",
+        "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Web\\Examen.Web.csproj",
+        "packagesPath": "C:\\Users\\alexi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\alexi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Data\\Examen.Data.csproj"
+              },
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Interface\\Examen.Interface.csproj"
+              },
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\Examen.Repository.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Repository\\Examen.Repository.csproj"
+              },
+              "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\Examen.Service.csproj": {
+                "projectPath": "C:\\Users\\alexi\\Documents\\Examen\\Examen.Web\\Examen.Service\\Examen.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+<form class="p-fluid grid" [formGroup]="form" (ngSubmit)="onSubmit()">
+  
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4">
+    <div *ngIf="validateId(); else elseBlock"><h5>Registrar Articulo</h5></div>
+    <ng-template #elseBlock><h5>Actualizar Articulo</h5></ng-template>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4">
+    <span class="p-float-label">
+			<input type="text" id="codigo" pInputText formControlName="codigo" class="p-inputtext-sm" /> 
+			<label for="codigo">Codigo</label>
+		</span>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4">
+    <span class="p-float-label">
+			<input type="text" id="descripcion" pInputText formControlName="descripcion" class="p-inputtext-sm" /> 
+			<label for="descripcion">Descripcion</label>
+		</span>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4">
+    <span class="p-float-label">
+			<input type="text" id="precio" pInputText formControlName="precio" class="p-inputtext-sm" /> 
+			<label for="precio">precio</label>
+		</span>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4">
+    <span class="p-float-label">
+			<input type="text" id="stock" pInputText formControlName="stock" class="p-inputtext-sm" /> 
+			<label for="stock">Stock</label>
+		</span>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-4" style="text-align: center;">
+    <div *ngIf="!validateId()">
+      <img src="data:image/jpg;base64,{{img}}" width="150" class="shadow-4" />
+    </div>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+  
+  <div class="field col-12 md:col-6"></div>
+  <div class="field col-12 md:col-2">
+
+    <input type="file" [hidden]="true"
+       (change)="selectFile($event)" #fileUpload>
+
+    <p-button styleClass="p-button-rounded" label="{{ fileName || 'Selecciona un archivo' }}" (click)="fileUpload.click()"></p-button>
+
+  </div>
+  <div class="field col-12 md:col-4"></div>
+
+  <div class="field col-12 md:col-4"></div>
+  <div class="field col-12 md:col-2">
+    <button pButton label="Guardar" class="p-button-rounded" ></button>
+  </div>
+  <div class="field col-12 md:col-2">
+    <p-button [routerLink]="['/home/articulos/list']" label="Cancelar" styleClass="p-button-rounded p-button-secondary"></p-button>
+  </div>
+  <div class="field col-12 md:col-4"></div>
+ </form>
+ <p-toast></p-toast>

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Examen.Service/1.0.0": {
+        "dependencies": {
+          "Examen.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Service.dll": {}
+        }
+      },
+      "Examen.Dto/1.0.0": {
+        "runtime": {
+          "Examen.Dto.dll": {}
+        }
+      },
+      "Examen.Interface/1.0.0": {
+        "dependencies": {
+          "Examen.Dto": "1.0.0"
+        },
+        "runtime": {
+          "Examen.Interface.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examen.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

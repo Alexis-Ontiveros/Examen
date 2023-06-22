@@ -1,0 +1,48 @@
+<div class="card">
+  <p-table [value]="articulos" [tableStyle]="{'min-width': '50rem'}" [styleClass]="'p-datatable-sm'">
+      <ng-template pTemplate="caption">
+          <div class="flex align-items-center justify-content-between">
+              Articulos
+          </div>
+      </ng-template>
+      <ng-template pTemplate="header">
+          <tr>
+            <th></th>
+              <th>Codigo</th>
+              <th>Descripcion</th>
+              <th>Precio</th>
+              <th></th>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-articulo>
+          <tr>
+            <td><img src="data:image/jpg;base64,{{articulo.imagen}}" width="100" class="shadow-4" /></td>
+            <td>{{articulo.codigo}}</td>
+            <td>{{articulo.descripcion}}</td>
+            <td>{{articulo.precio | currency:'MX'}}</td>
+            <td>
+                <p-button [disabled]="path !== 'Pendientes'" icon="pi pi-trash" pTooltip="Quitar" styleClass="p-button-rounded p-button-help p-button-text" (onClick)="removeArticulo(articulo.id)"></p-button>
+            </td>
+          </tr>
+      </ng-template>
+      <ng-template pTemplate="footer">
+        <tr>
+            <td colspan="3" class="text-right">Total a pagar:</td>
+            <td>{{total | currency: 'USD'}}</td>
+            <td></td>
+        </tr>
+    </ng-template>
+  </p-table>
+</div>
+
+<div class="p-fluid grid" *ngIf="path === 'Pendientes' && articulos.length > 0">
+    <div class="field col-12 md:col-10"></div>
+    <div class="field col-12 md:col-1">
+        <p-button icon="pi pi-cart-plus" label="Comprar" styleClass="p-button-rounded p-button-text" pTooltip="Comprar" (onClick)="aprovarCompra()"></p-button>
+    </div>
+    <div class="field col-12 md:col-1">
+        <p-button icon="pi pi-shopping-cart" label="Cancelar" styleClass="p-button-rounded p-button-text" pTooltip="Cancelar" (onClick)="cancelarCompra()"></p-button>
+    </div>
+ </div>
+
+<p-toast></p-toast>
